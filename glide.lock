@@ -1,0 +1,8 @@
+hash: cd8ecf3db168cf45f86e2674e5d06ec430f1f3079c971a56331e3017427846ad
+updated: 2018-06-10T15:23:50.030574-05:00
+imports:
+- name: github.com/bugsnag/bugsnag-go
+  version: f860f733c3d1c69181d9240eed266f94422fc99e
+- name: github.com/gin-gonic/gin
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
+testImports: []
