@@ -1,8 +1,44 @@
-hash: cd8ecf3db168cf45f86e2674e5d06ec430f1f3079c971a56331e3017427846ad
-updated: 2018-06-10T15:23:50.030574-05:00
+hash: 9ba667d26ab068e34c31bc30432bc85e14cd59653b683dc4471afb1e4eed2ff0
+updated: 2018-06-13T20:25:34.336124-05:00
 imports:
 - name: github.com/bugsnag/bugsnag-go
   version: f860f733c3d1c69181d9240eed266f94422fc99e
+  subpackages:
+  - errors
+  - gin
+- name: github.com/bugsnag/panicwrap
+  version: 1d162ee1264c75b29b0f7733221bedfae7559079
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
 - name: github.com/gin-gonic/gin
   version: d459835d2b077e44f7c9b453505ee29881d5d12d
+  subpackages:
+  - binding
+  - render
+- name: github.com/golang/protobuf
+  version: 5831880292e721c76b58a16ecc60adc27d8e6355
+  subpackages:
+  - proto
+- name: github.com/jinzhu/gorm
+  version: 6ed508ec6a4ecb3531899a69cbc746ccf65a4166
+  subpackages:
+  - dialects/mysql
+- name: github.com/joho/godotenv
+  version: a79fa1e548e2c689c241d10173efd51e5d689d5b
+- name: github.com/kardianos/osext
+  version: ae77be60afb1dcacde03767a8c37337fad28ac14
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/ugorji/go
+  version: f3cacc17c85ecb7f1b6a9e373ee85d1480919868
+  subpackages:
+  - codec
+- name: golang.org/x/sys
+  version: 56ede360ec1c541828fb88741b3f1049406d28f5
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
 testImports: []
